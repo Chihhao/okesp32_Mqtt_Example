@@ -40,15 +40,15 @@ int debounceDelay = 20;  // debounce used
 
 #include <WiFi.h>
 WiFiClient espClient;
-const char* ssid     = "ch_wifi";
-const char* password = "wifi_CH_1201";
+const char* ssid     = "*****";
+const char* password = "*****";
 
 #include <PubSubClient.h>
 PubSubClient client(espClient);
 const char* mqttServer = "10.0.4.3";
 const int mqttPort = 1883;
-const char* mqttUser = "chihhaolai";
-const char* mqttPassword = "1201";
+const char* mqttUser = "****";
+const char* mqttPassword = "****";
 const char* topic = "testTopic";
 
 void init_keys(){
