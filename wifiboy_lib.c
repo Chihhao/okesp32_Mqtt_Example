@@ -9,6 +9,7 @@
 #include "driver/spi_master.h"
 #include "soc/gpio_struct.h"
 #include "driver/gpio.h"
+#include "soc/rtc.h"
 
 #include "wbfonts.h"
 //#include "math.h"
